@@ -17,7 +17,6 @@ __version__ = "1.2"
 import os
 import csv
 import sqlite3
-
 import sqlalchemy
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
